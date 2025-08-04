@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Lato', Courier, monospace;
+}
+
+.grad {
+    background-image: linear-gradient(#262626,#000000,#02162f);
+}
+
+nav{
+    background-image: linear-gradient(to right,#262626,#262626,#04244c);
+}
+
+.hov{
+    padding: 5px 10px 5px 10px;
+}
+
+a.active{
+    background-color: #04244c;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+}
+
+.hov:hover{
+    background-color: #87898a;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+    transition: background-color 0.3s ease-in, background-color 0.3s ease-out;
+}
+
+.icon{
+    padding: 5px;
+}
+
+.icon:hover{
+    background-color: #87898a;
+    padding: 5px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in, background-color 0.3s ease-out;
+}
+
+.crs{
+    filter: brightness(65%);
+    z-index: -10;
+    height: 88vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bsh{
+    z-index: 10;
+    box-shadow: 0px 15px 20px black;
+}
+
+.cor1{
+    background-color: #04244c;
+    border: none;
+    border-radius: 5px;
+    padding-block: 10px;
+    padding-inline: 20px;
+    color: white;
+}
+
+.sug{
+    background-color: #04244c;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.txt{
+    border-radius: 10px;
+    padding: 8px;
+    backdrop-filter: blur(20px);
+    box-shadow: 1px 1px 10px black;
+}
+
+.sombra1{
+    position: relative;
+    z-index: 10;
+    box-shadow: 0px -25px 25px black;
+}
+
+.sombra2{
+    position: relative;
+    box-shadow: 0px 0px 20px black;
+}
+
+.oscar{
+    background-position: relative;
+    background-size: 3000px;
+    background-repeat: no-repeat;
+    background-image: url(../img/oscar.png);
+    background-position-y: center;
+    background-position-x: left;
+}
+
+.oscar h1{
+    text-shadow: 0px 10px 10px black;
+}
+
+.line::after, .line::before {
+  content: " ";
+  background-color: #b99c35;
+  display: block;
+  height: 3px;
+  width: 100%;
+}
+
+.oscar .card{
+    height: 490px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+}
+
+footer{
+    background-image: linear-gradient(to right,#262626,#262626,#04244c);
+}
+
+.genero-titulo{
+    color: #294f74;
+    text-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+
+.subnav::after {
+  content: " ";
+  background-color: #0000009a;
+  display: block;
+  height: 2px;
+  width: 100%;
+}
+
+.classificacao{
+    width: 50px;
+}
